@@ -1,0 +1,65 @@
+int deger;
+            deger = 0;
+            Console.WriteLine(deger);
+            
+            string degisken = null;
+            string Degisken = null;
+            //değişken adlaı büyük küçük harfe duyarlı
+
+            /*değişken isminin başında sayı olamaz
+            *class program gibi özel isimleri değişken ismi olarak yazamayız
+            *değişken ismi operatör içeremez + gibi
+            *değişken isimlendirmede boşluk yerine alt tire kullanabiliriz.
+            */
+
+
+            string  whiteSpace =  " " ;
+
+
+            byte b = 5; //1 byte   0-255 arasında bi değer alır 
+            sbyte c = 5; // 1 byte -128 ve 127 arasında değer alabilir
+            short s = 5; //2 byte -32768 ile poziti arasında
+            ushort u = 5; //2 byte  unsigned negatif değer alamaz
+
+            Int16 İ16 = 2;  //2 BYTE
+            int i = 2; //4 byte
+            Int32 ı = 2; //4 byte
+            Int64 ıı=2; //8 byte
+            uint a = 2; //4 byte
+
+            long g = 4; //8 byte
+
+            float f1  = 5; //4 byte reel ve tam sayı
+            double d = 5; //8 byte reel ve ondalıklı
+            decimal de = 5; //16 byte
+
+            char ch ='B' ; //2 byte  tek karakter tanımlamak için kullanılır
+            string st = "feyza"; //sınırsız büyüklük
+
+            bool b1 = true; //rue false seçeneği == ile kullanılır
+
+
+            DateTime dt1 = DateTime.Now;
+            Console.WriteLine(dt1); //işlemin yapıldığı tarihi çıktı verir
+
+
+            object o1 = "v";
+            object o2 = 4;  //object değişken tipi her tür veriyi tutar
+
+            //tüm değişken tipleri birer objecttir
+
+
+            //string ifadeler
+            string strl = string.Empty; //boş string
+            strl = "Feyza";
+            string ad = "feyza";
+            string soyadd = "keskin";
+            string tamIsım = ad + " " + soyadd;
+            Console.WriteLine(tamIsım);
+
+            //string bir ifadeyi int değişkenine dönüştürmekiçin int.Parse kullanılır
+            //Convert.ToInt32 var
+            //ToString var
+
+            string datetime = DateTime.Now.ToString("dd.MM.yyyy");
+            Console.WriteLine(datetime);
